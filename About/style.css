@@ -21,6 +21,9 @@
 body {
   margin: 0px;
   font-family: HelveticanueMedium;
+  animation-duration: 1s;
+animation-name: appear;
+
 }
 
 .about_img {
@@ -35,6 +38,16 @@ body {
   background-image: url('./screens/P1190026.jpg');
   */
 }
+@keyframes appear {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+
 
 .about {
   width: 100%;
