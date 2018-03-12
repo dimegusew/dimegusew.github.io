@@ -78,7 +78,7 @@ animation-name: appear;
 }
 
 .my-button:hover{
-  background-color: #54a0ff;
+  background-color: #2e86de;
 }
 
 
@@ -147,12 +147,18 @@ animation-name: appear;
 }
 
 .work_img {
-  background-color: grey;
+  background-color: black;
   max-width: 544px;
   box-shadow: 0 1px 8px 0 rgba(0, 44, 92, 0.28);
 }
 
-.work_img img:hover {}
+.work_img img:hover {
+  /* opacity:0.7; */
+}
+.work_img:hover {
+  /* opacity:0.7; */
+  box-shadow: 0 1px 8px 0 rgba(0, 44, 92, 0.68);
+}
 
 .work_img img {
   width: 100%;
