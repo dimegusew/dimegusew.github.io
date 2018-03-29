@@ -103,6 +103,7 @@ animation-name: appear;
   margin-top: 1px;
   color: white;
   font-family: HelveticanueBold;
+  font-size: 25px;
 }
 
 .works {
@@ -121,14 +122,14 @@ animation-name: appear;
 }
 
 .work {
-  margin-top: 63px;
+  margin-top: 80px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .work_rev {
-  padding-top: 63px;
+  padding-top: 80px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
