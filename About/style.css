@@ -23,6 +23,7 @@ body {
   font-family: HelveticanueMedium;
   animation-duration: 1s;
 animation-name: appear;
+/* background-image: linear-gradient(-180deg, #ffffff 0%, #dff9fb 100%); */
 
 }
 
@@ -54,6 +55,7 @@ animation-name: appear;
   min-height: 400px;
   background-color: #474787;
   display: flex;
+    /* background-image: linear-gradient(-180deg, #1e90ff 0%, #474787 100%); */
 }
 
 .about_info {
@@ -174,7 +176,8 @@ animation-name: appear;
   position: relative;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(-180deg, #E6F0F0 0%, #E9F0E6 100%);
+  background-image: linear-gradient(-180deg, #E6F0F0 0%, #dff9fb 100%);
+
   display: flex;
   justify-content: center;
 }
