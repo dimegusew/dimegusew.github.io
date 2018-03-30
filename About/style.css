@@ -90,12 +90,16 @@ animation-name: appear;
   padding-right: 30px;
   margin-top: 60px;
   font-size: 17px;
+  font-weight:lighter;
 }
 
 .about_info h3 {
   top: 10px;
   color: white;
+  margin-bottom: 10px;
   left: 95px;
+  font-weight: 400;
+  font-size: 25px;
   font-family: HelveticanueBold;
 }
 
@@ -103,7 +107,7 @@ animation-name: appear;
   margin-top: 1px;
   color: white;
   font-family: HelveticanueBold;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .works {
@@ -122,14 +126,14 @@ animation-name: appear;
 }
 
 .work {
-  margin-top: 80px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .work_rev {
-  padding-top: 80px;
+  padding-top: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -142,9 +146,10 @@ animation-name: appear;
 }
 
 .work_info p {
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 20px;
   font-family: HelveticanueMedium;
+  color:##353b48;
 }
 
 .work_img {
@@ -193,6 +198,7 @@ animation-name: appear;
     align-items: center;
   }
   .work_rev {
+      padding-top: 60px;
     flex-direction: column-reverse;
     display: flex;
     justify-content: center;
@@ -202,6 +208,7 @@ animation-name: appear;
     justify-content: center;
   }
   .work {
+    margin-top: 60px;
     flex-direction: column-reverse;
     padding-top: 1px;
     display: flex;
@@ -248,6 +255,7 @@ animation-name: appear;
       padding-bottom: 20px;
   }
   .work_rev {
+    padding-top: 60px;
     flex-direction: column-reverse;
   }
   .work {
