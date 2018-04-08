@@ -333,6 +333,16 @@ animation-name: appear;
 #btn6:checked~.switch label[for="btn6"] {
   background-color: white;
 }
+#btn7:checked~.switch label[for="btn7"] {
+  background-color: white;
+}
+
+#btn8:checked~.switch label[for="btn8"] {
+  background-color: white;
+}
+#btn9:checked~.switch label[for="btn9"] {
+  background-color: white;
+}
 
 .slider-inner {
   overflow: hidden;
@@ -370,6 +380,17 @@ animation-name: appear;
 }
 
 #btn6:checked~.slider-inner .slides {
+  transform: translate(-1120px);
+}
+#btn7:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn8:checked~.slider-inner .slides {
+  transform: translate(-560px);
+}
+
+#btn9:checked~.slider-inner .slides {
   transform: translate(-1120px);
 }
 
