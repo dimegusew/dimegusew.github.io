@@ -429,4 +429,13 @@ animation-name: appear;
   #btn6:checked~.slider-inner .slides {
     transform: translate(-600px);
   }
+  #btn7:checked~slider-inner slides {
+    transform: translate(0);
+  }
+  #btn8:checked~.slider-inner .slides {
+    transform: translate(-300px);
+  }
+  #btn9:checked~.slider-inner .slides {
+    transform: translate(-600px);
+  }
 }
