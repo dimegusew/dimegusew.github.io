@@ -296,8 +296,8 @@ animation-name: appear;
   }
 
   .work h5, .work_rev h5  {
-    margin-bottom: 3px;
-    margin-top: 25px;
+    margin-bottom: 40px;
+    /* margin-top: 25px; */
   }
   .work_img {
     background-color: grey;
