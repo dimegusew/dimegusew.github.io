@@ -36,7 +36,7 @@ animation-name: appear;
   width: 400px;
   height: 400px;
   background-size: cover;
-  background-image: url('./screens/P1190026.jpg');
+  background-image: url('./screens/avatar.jpg');
   */
 }
 @keyframes appear {
@@ -83,6 +83,15 @@ animation-name: appear;
   background-color: #2e86de;
 }
 
+.graph{
+  display: flex;
+  margin: auto;
+  max-width:700px;
+  /* height: 500px; */
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
 
 .about_info p {
   color: #ced6e0;
@@ -100,7 +109,7 @@ animation-name: appear;
   color: white;
   margin-bottom: 10px;
   left: 95px;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 25px;
   font-family: HelveticanueBold;
 }
@@ -124,7 +133,11 @@ animation-name: appear;
 }
 
 .works h4 {
+  /* text-align: center; */
   margin: 0;
+  font-size: 40px;
+  /* display: flex;
+  margin: auto; */
 }
 
 .work {
@@ -221,9 +234,16 @@ animation-name: appear;
 }
 
 @media screen and (max-width: 800px) {
+  .graph, .skills{
+      display: none;
+  }
+
+
   .works h4 {
     margin-top: 3px;
     margin-bottom: -60px;
+    font-size: 35px;
+    text-align: center;
     /* margin: 0; */
   }
   .my-button{
@@ -260,11 +280,24 @@ animation-name: appear;
   .work_rev {
     padding-top: 60px;
     flex-direction: column-reverse;
+    color:#2f3640;
+    text-align: center;
   }
   .work {
     padding-top: 10px;
     flex-direction: column-reverse;
     padding-top: 1px;
+    color:#2f3640;
+    text-align: center;
+  }
+
+  .work p, .work_rev p  {
+    text-align:left;
+  }
+
+  .work h5, .work_rev h5  {
+    margin-bottom: 3px;
+    margin-top: 25px;
   }
   .work_img {
     background-color: grey;
